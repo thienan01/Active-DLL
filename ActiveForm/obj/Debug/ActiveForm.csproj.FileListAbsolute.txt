@@ -1,0 +1,12 @@
+D:\Github\v2\ActiveForm\ActiveForm\bin\Debug\ActiveForm.pdb
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.csproj.AssemblyReference.cache
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.Properties.Resources.resources
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.csproj.GenerateResource.cache
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.csproj.CoreCompileInputs.cache
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.pdb
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.frmActive.resources
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.frmActiveConfig.resources
+D:\Github\v2\ActiveForm\ActiveForm\bin\Debug\ActiveForm.exe.config
+D:\Github\v2\ActiveForm\ActiveForm\bin\Debug\ActiveForm.exe
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.csproj.SuggestedBindingRedirects.cache
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.exe

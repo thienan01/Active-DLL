@@ -9,4 +9,5 @@ D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.frmActiveConfig.resource
 D:\Github\v2\ActiveForm\ActiveForm\bin\Debug\ActiveForm.exe.config
 D:\Github\v2\ActiveForm\ActiveForm\bin\Debug\ActiveForm.exe
 D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.csproj.SuggestedBindingRedirects.cache
+D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.frmMessage.resources
 D:\Github\v2\ActiveForm\ActiveForm\obj\Debug\ActiveForm.exe

@@ -61,8 +61,9 @@ namespace ActiveForm
             email.To.Add(configs["RecieverEmail"]);
             email.From = new MailAddress(configs["SenderEmail"]);
             email.Subject = configs["EmailSubject"];
-            string content = configs["EmailContent"].Replace("CONTACT_NAME", tbxContactName.Text).Replace("CONTACT_NUM", tbxContactNum.Text);
-            email.Body = content;
+            configs["EmailContent"].Replace("CONTACT_NAME", tbxContactName.Text).Replace("CONTACT_NUM", tbxContactNum.Text);
+            email.Body = configs["EmailContent"].Replace("CONTACT_NAME", tbxContactName.Text).Replace("CONTACT_NUM", tbxContactNum.Text);
+            email.IsBodyHtml = true;
             SmtpClient smtp = new SmtpClient("smtp.gmail.com");
             smtp.EnableSsl = true;
             smtp.UseDefaultCredentials = false;
@@ -72,6 +73,7 @@ namespace ActiveForm
             try
             {
                 smtp.Send(email);
+
                 return true;
             }
             catch (Exception ex)
@@ -87,8 +89,18 @@ namespace ActiveForm
         }
         private void btnSendReq_Click(object sender, EventArgs e)
         {
+            frmMessage loading = new frmMessage();
+            loading.Show();
+            this.Hide();
+            Application.DoEvents();
             if (sendEmail())
+            {
+                loading.Close();
                 MessageBox.Show("Sent request successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+                loading.Close();
+            this.Show();
         }
 
         private void tbxContactNum_KeyPress(object sender, KeyPressEventArgs e)

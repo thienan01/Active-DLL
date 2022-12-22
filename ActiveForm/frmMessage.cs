@@ -7,18 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net;
-using System.Net.Mail;
 
 namespace ActiveForm
 {
-    public partial class FormTest : Form
+    public partial class frmMessage : Form
     {
-        public FormTest()
+        public frmMessage()
         {
             InitializeComponent();
-            frmActive active = new frmActive("MOMO");
-            active.ShowDialog();
         }
     }
 }
